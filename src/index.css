@@ -1,10 +1,15 @@
 @import url('./assets/font/stylesheet.css');
 
+* {
+  font-family: 'Inter' !important;
+}
+
 body {
   margin: 0;
   font-family: 'Inter' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f8f9 !important;
 }
 
 code {
